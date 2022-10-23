@@ -33,15 +33,13 @@ module.exports = {
       .setFooter(
         `To get info of each command type ${
           GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix
-        }help [Command] | Have a nice day!`
+        }help [Command] | Have a fucking nice day!`
       ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | [Dashboard](${
-      client.botconfig.Website
-    }) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | By Ultimate`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
@@ -119,15 +117,13 @@ module.exports = {
         .setFooter(
           `To get info of each command type ${
             GuildDB ? GuildDB.prefix : client.botconfig.DefaultPrefix
-          }help [Command] | Have a nice day!`
+          }help [Command] | Have a fucking nice day!`
         ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.botconfig.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | [Dashboard](${
-        client.botconfig.Website
-      }) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | By Ultimate`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
