@@ -71,11 +71,6 @@ module.exports = {
       );
       embed.addFields(
         {
-          name: ":robot: Version",
-          value: `┕\`v${require("../package.json").version}\``,
-          inline: true,
-        },
-        {
           name: ":blue_book: Discord.js",
           value: `┕\`v${version}\``,
           inline: true,
@@ -149,11 +144,6 @@ module.exports = {
           }
         );
         embed.addFields(
-          {
-            name: ":robot: Version",
-            value: `┕\`v${require("../package.json").version}\``,
-            inline: true,
-          },
           {
             name: ":blue_book: Discord.js",
             value: `┕\`v${version}\``,
